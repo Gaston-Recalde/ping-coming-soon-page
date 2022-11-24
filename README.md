@@ -15,11 +15,20 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ### Screenshot
 
-![](./images/ping-comming-soon-page.png)
+![](./images/ping-coming-soon-page.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://preeminent-yeot-131b46.netlify.app)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
 ## Author
 
