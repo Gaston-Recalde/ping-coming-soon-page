@@ -21,11 +21,12 @@
       <h1 class="header__h1">We are launching <span class="h1__span">soon!</span></h1>
       <p class="header__p">Subscribe and get notified</p>
 
-      <form action="" class="header__form">
+      <form action="" class="header__form" id="form">
         <div class="form__email">
           <input type="email" name="email" class="email" id="email" placeholder="Your email address...">
+          <small id="error" class="small">Please provide a valid email address</small>
         </div>
-        <button class="button" id="button">Notify Me</button>
+        <button type="submit" class="button" id="button">Notify Me</button>
       </form>
 
     </header>
@@ -46,12 +47,12 @@
 
   </main>
 
-  <!-- <footer>
+  <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://gaston-recalde-portafolio.netlify.app" target="_blank">Gastón Recalde</a>.
     </p>
-  </footer> -->
+  </footer>
 
   <script src="app.js"></script>
 </body>
