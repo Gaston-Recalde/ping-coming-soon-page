@@ -2,33 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   
-  <title>Frontend Mentor | Ping coming soon page</title>
+  <title>Ping coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  We are launching soon!
+  <main class="container">
 
-  Subscribe and get notified
+    <header class="header">
 
-  Notify Me
+      <img src="./images/logo.svg" alt="Icon Ping" class="header__logo">
+      <h1 class="header__h1">We are launching <span class="h1__span">soon!</span></h1>
+      <p class="header__p">Subscribe and get notified</p>
 
-  &copy; Copyright Ping. All rights reserved.
+      <form action="" class="header__form">
+        <div class="form__email">
+          <input type="email" name="email" class="email" id="email" placeholder="Your email address...">
+        </div>
+        <button class="button" id="button">Notify Me</button>
+      </form>
 
-  <footer>
+    </header>
+
+    <div class="imagen">
+      <img src="./images/illustration-dashboard.png" alt="illustration Dashboard" class="imagen__logo">
+    </div>
+
+    <div class="social">
+      <div class="social__i">
+        <i class="uil uil-facebook-f"></i>
+        <i class="uil uil-twitter"></i>
+        <i class="uil uil-instagram"></i>
+      </div>
+
+      <p class="copy">&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+
+  </main>
+
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://gaston-recalde-portafolio.netlify.app" target="_blank">Your Name Here</a>.
+      Coded by <a href="https://gaston-recalde-portafolio.netlify.app" target="_blank">Gastón Recalde</a>.
     </p>
-  </footer>
+  </footer> -->
+
+  <script src="app.js"></script>
 </body>
 </html>
